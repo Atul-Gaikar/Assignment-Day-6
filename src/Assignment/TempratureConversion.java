@@ -15,7 +15,7 @@ public class TempratureConversion {
 				main(args);
 				return;
 			}
-			tem = util.temperatureConversion(tem, t);
+			
 			System.out.println("coverted temp is " + tem);
 		} catch (Exception e) {
 			System.out.println("temperature in format 4545 c");
